@@ -1,0 +1,21 @@
+body {
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+#container {
+	margin: 0 100px;
+}
+
+#logo {
+	background-image: url("https://images.mint.com/web-client/images/mint_logo.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	top: 12px;
+  height: 56px;
+  width: 103px;
+}
