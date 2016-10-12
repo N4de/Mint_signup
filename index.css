@@ -61,7 +61,7 @@ main {
   position: relative;
   padding: 43px 50px 50px 50px;
   min-height: 330px;
-  box-shadow:         rgba(0, 0, 0, 0.2) 1px 3px 8px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 8px 0;
 }
 
 #signup-info {
@@ -89,7 +89,31 @@ main {
 }
 
 .input-container {
+	margin-bottom: 28px;
+}
+
+.input-area {
+	box-shadow: none;
+  border-radius: 3px;
+  border: 1px solid #d8d8d8;
 	width: 320px;
-  min-width: 95px;
-  height: 34px;
+	min-width: 160px;
+	padding-left: 8px;
+	padding-right: 6px;
+	height: 34px;
+	margin-top: 15px;
+}
+
+label {
+	font-size: 14px !important;
+  font-weight: normal !important;
+  font-family: "AvenirNext-Regular-Mint", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  margin-bottom: 10px;
+}
+
+.label-container {
+}
+
+#first-input {
+	margin-top: 67px;
 }
